@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex items-center justify-center flex-col min-h-screen">
+    <h1 class="text-center m-5 text-4xl">Calculator</h1>
+    <div class="bg-[#1D1616] text-white border-2 p-5 w-80 h-auto flex items-center justify-center flex-col rounded-3xl">
+        <input type="text" name="input" id="input" class="bg-white text-black border-2 w-60 p-7 rounded-3xl text-end">
+        <div class="font-semibold text-xl">
+            <div class="m-5 grid grid-cols-4 gap-2">
+                <span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#5C5C5F] text-black cursor-pointer">C</span>
+                <span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#5C5C5F] text-black cursor-pointer">^2</span>
+                <span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#5C5C5F] text-black cursor-pointer">%</span>
+                <span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#FF9F0A] cursor-pointer">/</span>
+            </div>
+            
+            <div class="m-5 grid grid-cols-4 gap-2">
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">7</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">8</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">9</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#FF9F0A] cursor-pointer">*</Span>
+            </div>
+            <div class="m-5 grid grid-cols-4 gap-2">
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">4</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">5</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">6</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#FF9F0A] cursor-pointer">-</Span>
+            </div>
+            <div class="m-5 grid grid-cols-4 gap-2">
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">1</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">2</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">3</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#FF9F0A] cursor-pointer">+</Span>
+            </div>
+            <div class="m-5 grid grid-cols-4 gap-2">
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">0</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">00</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#2A2A2C] cursor-pointer">.</Span>
+                <Span class="w-14 h-14 flex items-center justify-center rounded-full bg-[#FF9F0A] cursor-pointer">=</Span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
