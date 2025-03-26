@@ -10,7 +10,6 @@ A basic calculator built using **HTML, Tailwind CSS, and JavaScript**. It suppor
 - ✅ Modulus (`%`)
 - ✅ Exponentiation (`^`)
 - 🎨 Responsive UI with Tailwind CSS
-- 🎯 Keyboard and button input support
 - 🔄 Clear (C) button to reset calculations
 
 ## 🛠️ Technologies Used
