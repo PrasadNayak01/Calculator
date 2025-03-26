@@ -8,7 +8,7 @@ A basic calculator built using **HTML, Tailwind CSS, and JavaScript**. It suppor
 - ✅ Multiplication (`*`)
 - ✅ Division (`/`)
 - ✅ Modulus (`%`)
-- ✅ Exponentiation (`^`)
+- ✅ Exponentiation (`**`)
 - 🎨 Responsive UI with Tailwind CSS
 - 🔄 Clear (C) button to reset calculations
 
